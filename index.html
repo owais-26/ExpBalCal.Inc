@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum Myeongjo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril Fatface"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="bg2.webp">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>ExpBalCal.Inc</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>ExpBalCal.Inc</h1>
+      <span class="first"> &copyODev</span>
+    </header>
+    <hr />
+    <p class="para">
+      Hey! Getting Forgot How Much You Saved Altogether and How Much You Have
+      Spent Till Now? <br />
+      Dont Worry
+      <b>
+        <i> <a href="">ExpBalCal</a> </i>
+      </b>
+      Will Make Your Calculations Easier! <br />
+      Enjoy it For Free!
+    </p>
+    <hr />
+    <div class="container">
+      <div class="cal">
+        <h1 class="hd">Start Calculation</h1>
+        <h2>Total Savings: <span id="totalsav">0</span></h2>
+        <h2>Current Balance: <span id="currentbal">0</span></h2>
+        <h3>Add Your Savings Here:</h3>
+        <!-- <form action=""> -->
+
+          <input
+          type="text"
+          placeholder="Savings Name Here"
+          id="savingsname"
+          /><br /><br />
+          <input type="number" placeholder="Add Savings Here" id="savings" />
+          <br /><br />
+          <button class="button1" onclick="addMoney()" id="addmoney">Add Savings  </button>
+          <!-- <input class="button1" placeholder="Reset Values!" type="reset"> -->
+        <!-- </form> -->
+        <h3>Add Your Expenses Here:</h3>
+        <!-- <form action=""> -->
+          <input
+          type="text"
+          placeholder="Expense Name Here"
+          id="expensename"
+          /><br /><br />
+          <input
+          type="number"
+          placeholder="Expense Amount Here"
+          id="expenseamount"
+          /><br /><br />
+          <button class="button1" onclick="addExpense()" id="addExpense">Add Expense</button>
+          <!-- <input class="button1" placeholder="Reset Values!" type="reset"> -->
+        <!-- </form> -->
+      </div>
+      <div class="savingadd">
+        <h2 class="hd">Added Savings</h2>
+        <div id="savadd"></div>
+      </div>
+      <div class="savingadd">
+        <h2 class="hd">Added Expenses</h2>
+        <div id="expadd"></div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="big">
+        <h2 id="con">Connect With Me</h2>
+        <p id="feel">Social Media Platforms</p>
+        <!-- <div></div> -->
+        <div class="contact">
+          <ul id="cont">
+            <li>
+              <a href="https://www.facebook.com/owais.ansari.9822/"
+                target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                  alt=""></a></li>
+            <li><a href="https://www.instagram.com/owais._.26/"
+                target="_blank"><img
+                  src="https://image.shutterstock.com/image-photo/kiev-ukraine-may-14-2016-260nw-420838831.jpg"
+                  alt=""></a></li>
+
+
+
+            <li><a
+                href="https://www.linkedin.com/in/muhammad-owais-ansari-ba0694229/"
+                target="_blank"><img
+                  src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlua2VkaW4lMjBsb2dvfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                  alt=""></a></li>
+            <li><a href="https://github.com/owais-26" target="_blank"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzo1LOJew1gxSHmNAvipWbekkk7qDapJxAGWnDVm4Gnw&s"
+                  alt=""></a></li>
+            <!-- <li><a href="mailto:laibamohammadali@gmail.com" target="_blank"><img src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icons-png-vector-icons-and-png-backgrounds-18.png" alt=""></a></li>  -->
+          </ul>
+        </div>
+    </footer>
+    <div class="center">
+      Copyright &copy; <a href="https://expbalcal.netlify.app/" >https://expbalcal.netlify.app/</a>  All rights reserved!
+      <br>
+      Credits: Owais Ansari
+  </div>
+  </body>
+</html>
